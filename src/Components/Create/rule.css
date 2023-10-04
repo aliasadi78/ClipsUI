@@ -1,0 +1,13 @@
+.rule {
+    border: 1px solid #2b6777;
+    border-radius: 1rem;
+    margin: 1rem;
+    text-align: center;
+    background-color: #c8d8e4;
+}
+.btn {
+    background-color: #52ab98;
+}
+.field {
+    background-color: #f2f2f2;
+}
