@@ -19,3 +19,9 @@
     text-align: center;
     background-color: #c8d8e4;
 }
+
+@media only screen and (max-width: 800px) {
+    .create {
+        grid-template-columns: 100%;
+    }
+}
