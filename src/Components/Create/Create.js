@@ -106,8 +106,6 @@ export default function Create() {
                 <factContext.Provider value={facts}>
                     <div  style={{backgroundColor: '#2b6777', margin: '1rem', padding: '1rem', borderRadius: '1rem'}}>
                         <FactCreate/>
-
-
                     <div>{factList.map(item => {
                         return item
                     })}</div></div>
@@ -117,13 +115,6 @@ export default function Create() {
                             add Facts
                         </Button>
                     </div>
-
-                    {/*<Box sx={{minWidth: 120, textAlign: 'center'}}>*/}
-                    {/*    <Button className="btn" type="submit" variant="contained" sx={{mt: 3, mb: 2}}*/}
-                    {/*            onClick={handleChange1}>*/}
-                    {/*        Submit Facts*/}
-                    {/*    </Button>*/}
-                    {/*</Box>*/}
                 </factContext.Provider>
                 <div className='create'>
                     <div>
@@ -139,12 +130,6 @@ export default function Create() {
                                     add template
                                 </Button>
                             </div>
-                            {/*<Box sx={{minWidth: 120, textAlign: 'center'}}>*/}
-                            {/*    <Button className="btn" type="submit" variant="contained" sx={{mt: 3, mb: 2}}*/}
-                            {/*            onClick={handleChange1}>*/}
-                            {/*        Submit Templates*/}
-                            {/*    </Button>*/}
-                            {/*</Box>*/}
                         </templateContext.Provider>
                     </div>
                     <div>
@@ -160,10 +145,8 @@ export default function Create() {
                                     add rule
                                 </Button>
                             </div>
-
                         </ruleContext.Provider>
                     </div>
-
                 </div>
                 <Box sx={{minWidth: 120, textAlign: 'center'}}>
                     <Button className="btn" type="submit" variant="contained" sx={{mt: 3, mb: 2}}
